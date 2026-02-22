@@ -3,12 +3,12 @@ kind: Kustomization
 namespace: ice-gs-thesis-prod
 namePrefix: prod-
 patchesStrategicMerge:
-- ingress.yaml
-- deployment.yaml
-- service.yaml
+  - ingress.yaml
+  - deployment.yaml
+  - service.yaml
 resources:
-- ../../../base/be
-- secret.yaml
+  - ../../../base/be
+  - secret.yaml
 images:
-- name: jcy0308/ice-gs-thesis-be-prod
-  newTag: dc1b27912824c5e0779af4c7dea77dc66b63ad76
+  - name: scgskku/icc-grad-dissertation-manage-backend
+    newTag: dc1b27912824c5e0779af4c7dea77dc66b63ad76

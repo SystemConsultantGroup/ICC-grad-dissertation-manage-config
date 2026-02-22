@@ -13,7 +13,7 @@ spec:
         app.kubernetes.io/name: prod-be
     spec:
       containers:
-        - image: skkuscg/icc-grad-dissertation-manage-backend
+        - image: scgskku/icc-grad-dissertation-manage-backend
           imagePullPolicy: Always
           name: be
           ports:

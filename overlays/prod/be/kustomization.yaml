@@ -11,4 +11,4 @@ resources:
 - secret.yaml
 images:
 - name: scgskku/icc-grad-dissertation-manage-backend
-  newTag: fb43a81bd6c494bda8e34c7263f904a6a557122f
+  newTag: ba44f08f5cbdf1433e64e205fe7e016f382abca6

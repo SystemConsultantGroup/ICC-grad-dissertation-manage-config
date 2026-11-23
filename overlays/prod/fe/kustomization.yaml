@@ -10,4 +10,4 @@ resources:
 - ../../../base/fe
 images:
 - name: scgskku/ice-gs-thesis-fe-prod
-  newTag: 1761d19ab8fced72f258b3ca7bb550079fb921c6
+  newTag: 2eaf76426a7f07ba3b9d7bbe75a07cb6c851b8cf
